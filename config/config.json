@@ -1,23 +1,23 @@
 {
     "development": {
-        "username": "root",
-        "password": "",
+        "username": "fl0user",
+        "password": "ZPeK0oA9aguy",
         "database": "inventory",
-        "host": "127.0.0.1",
-        "dialect": "mysql"
+        "host": "ep-damp-bread-a2kfn3m6.eu-central-1.aws.neon.fl0.io",
+        "dialect": "postgres"
     },
     "test": {
-        "username": "root",
-        "password": "",
+        "username": "fl0user",
+        "password": "ZPeK0oA9aguy",
         "database": "inventory",
-        "host": "127.0.0.1",
-        "dialect": "mysql"
+        "host": "ep-damp-bread-a2kfn3m6.eu-central-1.aws.neon.fl0.io",
+        "dialect": "postgres"
     },
     "production": {
-        "username": "root",
-        "password": "",
+        "username": "fl0user",
+        "password": "ZPeK0oA9aguy",
         "database": "inventory",
-        "host": "127.0.0.1",
-        "dialect": "mysql"
+        "host": "ep-damp-bread-a2kfn3m6.eu-central-1.aws.neon.fl0.io",
+        "dialect": "postgres"
     }
 }
