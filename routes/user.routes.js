@@ -11,7 +11,6 @@ router.get('/', userController.list)
 router.post(
     '/',
     [
-        validateJWT,
         check('name', 'El nombre es obligatorio').not().isEmpty(),
         check('last_name', 'El email es obligatorio').not().isEmpty(),
         check('email', 'Debe ingresar un correo válido').isEmail(),
