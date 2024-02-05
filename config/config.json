@@ -4,20 +4,26 @@
         "password": "ZPeK0oA9aguy",
         "database": "inventory",
         "host": "ep-damp-bread-a2kfn3m6.eu-central-1.aws.neon.fl0.io",
-        "dialect": "postgres"
+        "dialect": "postgres",
+        "use_env_variable": "DATABASE_URL",
+        "logging": false
     },
     "test": {
         "username": "fl0user",
         "password": "ZPeK0oA9aguy",
         "database": "inventory",
         "host": "ep-damp-bread-a2kfn3m6.eu-central-1.aws.neon.fl0.io",
-        "dialect": "postgres"
+        "dialect": "postgres",
+        "use_env_variable": "DATABASE_URL",
+        "logging": false
     },
     "production": {
         "username": "fl0user",
         "password": "ZPeK0oA9aguy",
         "database": "inventory",
         "host": "ep-damp-bread-a2kfn3m6.eu-central-1.aws.neon.fl0.io",
-        "dialect": "postgres"
+        "dialect": "postgres",
+        "use_env_variable": "DATABASE_URL",
+        "logging": false
     }
 }
